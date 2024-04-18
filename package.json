@@ -1,0 +1,22 @@
+{
+  "name": "gerx-cli",
+  "preferGlobal": true,
+  "bin": {
+    "gerx": "./app.mjs"
+  },
+  "version": "1.0.0",
+  "description": "",
+  "exports": "./index.mjs",
+  "type": "module",
+  "engines": {
+    "node": ">=16"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ilya Samoylov",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^12.0.0"
+  }
+}

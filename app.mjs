@@ -73,7 +73,7 @@ function codeGenerate(name, type, cmd) {
 
     const stateCode =
 `import { Injectable } from '@angular/core';
-import { GeRxMethods } from 'geRx.interface';
+import { GeRxMethods } from 'gerx';
 import { ${preparedName}Service } from '${importServiceDir}${name}.service';
 
 @Injectable({
@@ -106,7 +106,7 @@ export class ${preparedName}Service {
     const facadeCode =
 `import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-import { GeRx } from 'geRx';
+import { GeRx } from 'gerx';
 import { ${preparedName}State } from '${importStateDir}${name}.state';
 
 @Injectable({

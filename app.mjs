@@ -3,7 +3,7 @@
 import {program} from './node_modules/commander/index.js';
 import fs from 'fs';
 
-program.version('1.0.0');
+program.version('1.0.2');
 
 program.command('generate <name>').alias('g').option('--store').action((name, cmd) => {
     const reExp = new RegExp(/[\/ \? \. \, \; \: \' \\ \" \+ \= \* \& \^ \% \$ \# \№ \@ \! ]/g);
